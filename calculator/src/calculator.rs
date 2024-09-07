@@ -4,6 +4,6 @@ pub fn calculate(x: i32, y: i32, operation: &str) -> i32 {
         "-" => x - y,
         "*" => x * y,
         "/" => x / y,
-        _ => panic!("Invalid Operation {}", operation),
+        _ => panic!("undefined operation {}", operation),
     }
 }
